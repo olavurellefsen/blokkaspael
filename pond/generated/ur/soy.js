@@ -1,0 +1,28 @@
+// This file was automatically generated from template.soy.
+// Please don't edit this file by hand.
+
+/**
+ * @fileoverview Templates in namespace Pond.soy.
+ */
+
+goog.provide('Pond.soy');
+
+goog.require('soy');
+goog.require('soydata');
+goog.require('BlocklyGames.soy');
+
+
+Pond.soy.messages = function(opt_data, opt_ignored, opt_ijData) {
+  return BlocklyGames.soy.messages(null, null, opt_ijData) + '<div style="display: none"><span id="Pond_scanTooltip">\u062F\u0634\u0645\u0646\u0648\u06BA \u06A9\u06D2 \u0644\u0626\u06D2 \u0633\u06A9\u06CC\u0646 \u0633\u0645\u062A \u06A9\u06CC \u0648\u0636\u0627\u062D\u062A \u06A9\u0631\u06CC\u06BA (0-360).\\n\u0627\u0633 \u0633\u0645\u062A \u0645\u06CC\u06BA \u0642\u0631\u06CC\u0628\u06CC \u062F\u0634\u0645\u0646 \u06A9\u0648 \u0641\u0627\u0635\u0644\u06C1 \u0648\u0627\u067E\u0633.\\n\u0627\u06AF\u0631 \u06A9\u0648\u0626\u06CC \u062F\u0634\u0645\u0646 \u0646\u06C1\u06CC\u06BA \u0645\u0644\u0627 \u062A\u0648 \u0627\u0646\u0641\u06CC\u0646\u0679\u06CC \u0648\u0627\u067E\u0633 \u0622\u062A\u0627 \u06C1\u06D2.</span><span id="Pond_cannonTooltip">\u062A\u067E \u0622\u06AF \u0627\u06CC\u06A9 \u0633\u0645\u062A (0-360) \u0627\u0648\u0631 \u0627\u06CC\u06A9 \u062D\u062F (0-70) \u06A9\u06CC \u0648\u0636\u0627\u062D\u062A \\n\u06A9\u0631\u06CC\u06BA. </span><span id="Pond_swimTooltip">\u0622\u06AF\u06D2 \u0628\u0691\u06BE\u0648. \u0633\u0645\u062A \u06A9\u06CC \u0648\u0636\u0627\u062D\u062A \u06A9\u0631\u06CC\u06BA (0-360). </span><span id="Pond_stopTooltip">\u0633\u0648\u0626\u0645\u0646\u06AF \u0628\u0646\u062F \u06A9\u0631\u0648 \u067E\u0644\u06CC\u0626\u0631 \u06A9\u0648 \u0631\u0648\u06A9\u0646\u06D2 \u0645\u06CC\u06BA \u0633\u0633\u062A \u06C1\u0648 \u062C\u0627\u0626\u06D2 \u06AF\u0627.</span><span id="Pond_healthTooltip">\u06A9\u06BE\u0644\u0627\u0691\u06CC \u06A9\u06CC \u0645\u0648\u062C\u0648\u062F\u06C1 \u0635\u062D\u062A (0 \u0645\u0631\u062F\u06C1 \u06C1\u06D2\u060C 100 \u0635\u062D\u062A \u0645\u0646\u062F \u06C1\u06D2) \\n\u0648\u0627\u067E\u0633. </span><span id="Pond_speedTooltip">\u067E\u0644\u06CC\u0626\u0631 \u06A9\u06CC \u0645\u0648\u062C\u0648\u062F\u06C1 \u0631\u0641\u062A\u0627\u0631 (0 \u0631\u06A9\u06BE\u06CC \u06AF\u0626\u06CC \u06C1\u06D2\u060C 100 \u0645\u06A9\u0645\u0644 \\n\u0631\u0641\u062A\u0627\u0631 \u06C1\u06D2) \u0648\u0627\u067E\u0633. </span><span id="Pond_locXTooltip">\u067E\u0644\u06CC\u0626\u0631 \u06A9\u06D2 X \u06C1\u0645 \u0622\u06C1\u0646\u06AF\u06CC \u06A9\u0648 \u0648\u0627\u067E\u0633 \u062F\u06CC\u062A\u0627 \u06C1\u06D2 (0 \u0628\u0627\u0626\u06CC\u06BA \\n\u062C\u0627\u0646\u0628 \u06C1\u06D2\u060C 100 \u062F\u0627\u0626\u06CC\u06BA \u06A9\u0646\u0627\u0631\u06D2 \u06C1\u06D2). </span><span id="Pond_locYTooltip">\u06A9\u06BE\u0644\u0627\u0691\u06CC \u06A9\u06D2 Y \u06C1\u0645 \u0622\u06C1\u0646\u06AF\u06CC \u0648\u0627\u067E\u0633 \u062F\u06CC\u062A\u0627 \u06C1\u06D2 (0 \u0633\u0628 \u0633\u06D2 \u0646\u06CC\u0686\u06D2 \\n\u06A9\u0646\u0627\u0631\u06D2 \u06C1\u06D2\u060C 100 \u0633\u0628 \u0633\u06D2 \u0627\u0648\u067E\u0631 \u06A9\u0646\u0627\u0631\u06C1 \u06C1\u06D2). </span></div>';
+};
+if (goog.DEBUG) {
+  Pond.soy.messages.soyTemplateName = 'Pond.soy.messages';
+}
+
+
+Pond.soy.visualization = function(opt_data, opt_ignored, opt_ijData) {
+  return '<div id="visualization"><canvas id="scratch" width="400" height="400" style="display: none"></canvas><canvas id="display" width="400" height="400"></canvas></div><table id="avatarStatTable"><tbody><tr id="avatarStatRow1"></tr><tr id="avatarStatRow2"></tr></tbody></table><table width="400"><tr><td style="width: 190px; text-align: center; vertical-align: top;"><button id="docsButton" title="\u0632\u0628\u0627\u0646 \u06A9\u06CC \u062F\u0633\u062A\u0627\u0648\u06CC\u0632\u0627\u062A \u062F\u06A9\u06BE\u0627\u0626\u06CC\u06BA.">\u062F\u0633\u062A\u0627\u0648\u06CC\u0632 \u06A9\u0627\u0631\u06CC</button></td><td><button id="runButton" class="primary" title="\u067E\u0631\u0648\u06AF\u0631\u0627\u0645 \u062C\u0633 \u0645\u06CC\u06BA \u0622\u067E \u0644\u06A9\u06BE\u0627 \u06C1\u06D2 \u0686\u0644\u0627\u0626\u06CC\u06BA."><img src="common/1x1.gif" class="run icon21"> \u067E\u0631\u0648\u06AF\u0631\u0627\u0645 \u062C\u0633 \u0645\u06CC\u06BA \u0622\u067E \u0646\u06D2 \u0644\u06A9\u06BE\u0627. \u0686\u0644\u0627\u0626\u06CC\u06BA</button><button id="resetButton" class="primary" style="display: none" title="\u067E\u0631\u0648\u06AF\u0631\u0627\u0645 \u0628\u0646\u062F \u06A9\u0631\u0648 \u0627\u0648\u0631 \u0633\u0637\u062D \u06A9\u0648 \u062F\u0648\u0628\u0627\u0631\u06C1 \u062A\u0631\u062A\u06CC\u0628 \u062F\u06CC\u06BA."><img src="common/1x1.gif" class="stop icon21"> \u062F\u0648\u0628\u0627\u0631\u06C1 \u0645\u0631\u062A\u0628 \u06A9\u0631\u06CC\u06BA</button></td></tr></table><div id="dialogDocs"><img src="common/1x1.gif" class="close icon21" id="closeDocs"><iframe id="frameDocs"></iframe></div>';
+};
+if (goog.DEBUG) {
+  Pond.soy.visualization.soyTemplateName = 'Pond.soy.visualization';
+}

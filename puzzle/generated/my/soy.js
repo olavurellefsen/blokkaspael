@@ -1,0 +1,28 @@
+// This file was automatically generated from template.soy.
+// Please don't edit this file by hand.
+
+/**
+ * @fileoverview Templates in namespace Puzzle.soy.
+ */
+
+goog.provide('Puzzle.soy');
+
+goog.require('soy');
+goog.require('soydata');
+goog.require('BlocklyGames.soy');
+
+
+Puzzle.soy.messages = function(opt_data, opt_ignored, opt_ijData) {
+  return '<div style="display: none"><span id="Puzzle_animal1">\u1018\u1032</span><span id="Puzzle_animal1Pic">duck.jpg</span><span id="Puzzle_animal1PicHeight">70</span><span id="Puzzle_animal1PicWidth">100</span><span id="Puzzle_animal1Legs">&nbsp;&nbsp;2&nbsp;&nbsp;</span><span id="Puzzle_animal1Trait1">\u1021\u1019\u103D\u1031\u1038\u1021\u1010\u1031\u102C\u1004\u103A\u1019\u103B\u102C\u1038</span><span id="Puzzle_animal1Trait2">\u1014\u103E\u102F\u1010\u103A\u101E\u102E\u1038</span><span id="Puzzle_animal1HelpUrl">https://my.wikipedia.org/wiki/\u1018\u1032</span><span id="Puzzle_animal2">\u1000\u103C\u1031\u102C\u1004\u103A</span><span id="Puzzle_animal2Pic">cat.jpg</span><span id="Puzzle_animal2PicHeight">70</span><span id="Puzzle_animal2PicWidth">100</span><span id="Puzzle_animal2Legs">&nbsp;&nbsp;4&nbsp;&nbsp;</span><span id="Puzzle_animal2Trait1">\u1014\u103E\u102F\u1010\u103A\u1001\u1019\u103A\u1038\u1019\u103D\u1031\u1038</span><span id="Puzzle_animal2Trait2">\u101E\u102C\u1038\u1019\u103D\u1031\u1038</span><span id="Puzzle_animal2HelpUrl">https://my.wikipedia.org/wiki/\u1000\u103C\u1031\u102C\u1004\u103A_(\u1010\u102D\u101B\u1005\u1039\u1006\u102C\u1014\u103A)</span><span id="Puzzle_animal3">\u1015\u103B\u102C\u1038</span><span id="Puzzle_animal3Pic">bee.jpg</span><span id="Puzzle_animal3PicHeight">70</span><span id="Puzzle_animal3PicWidth">100</span><span id="Puzzle_animal3Legs">&nbsp;&nbsp;6&nbsp;&nbsp;</span><span id="Puzzle_animal3Trait1">\u1015\u103B\u102C\u1038\u101B\u100A\u103A</span><span id="Puzzle_animal3Trait2">\u1005\u1030\u1038\u1001\u103B\u103D\u1014\u103A</span><span id="Puzzle_animal3HelpUrl">https://en.wikipedia.org/wiki/Bee</span><span id="Puzzle_animal4">\u1001\u101B\u102F</span><span id="Puzzle_animal4Pic">snail.jpg</span><span id="Puzzle_animal4PicHeight">70</span><span id="Puzzle_animal4PicWidth">100</span><span id="Puzzle_animal4Legs">&nbsp;&nbsp;0&nbsp;&nbsp;</span><span id="Puzzle_animal4Trait1">\u1021\u1001\u103D\u1036</span><span id="Puzzle_animal4Trait2">\u1021\u1000\u103B\u102D\u1021\u1001\u103B\u103D\u1032</span><span id="Puzzle_animal4HelpUrl">https://en.wikipedia.org/wiki/Snail</span><span id="Puzzle_picture">\u101B\u102F\u1015\u103A\u1015\u102F\u1036</span><span id="Puzzle_legs">\u1001\u103C\u1031\u1011\u1031\u102C\u1000\u103A\u1019\u103B\u102C\u1038</span><span id="Puzzle_legsChoose">\u101B\u103D\u1031\u1038\u1001\u103B\u101A\u103A\u101E\u100A\u103A</span><span id="Puzzle_traits">\u1009\u102C\u1009\u103A/ \u1021\u1000\u103B\u1004\u1037\u103A</span><span id="Puzzle_error0">\u1015\u103C\u102E\u1038\u1015\u103C\u100A\u103A\u1005\u102F\u1036\u1015\u102B\u1010\u101A\u103A\u104A \nAll %1 block \u1019\u103B\u102C\u1038\u1021\u102C\u1038\u101C\u102F\u1036\u1038\u1019\u103E\u1014\u103A\u1000\u1014\u103A\u1015\u102B\u101E\u100A\u103A\u104B</span><span id="Puzzle_error1">\u1015\u103C\u102E\u1038\u1001\u102B\u1014\u102E\u1038\u1015\u102B\u1015\u103C\u102E\u104B Block \u1010\u1005\u103A\u1001\u102F\u1019\u1019\u103E\u1014\u103A\u1015\u102B\u104B</span><span id="Puzzle_error2">%1 block \u1019\u103B\u102C\u1038\u1019\u1019\u103E\u1014\u103A\u1015\u102B\u104B</span><span id="Puzzle_tryAgain">Highlight \u101C\u102F\u1015\u103A\u1015\u103C\u1011\u102C\u1038\u101E\u1031\u102C block \u1019\u1019\u103E\u1014\u103A\u1015\u102B\u104B \u1006\u1000\u103A\u101C\u1000\u103A\u1000\u103C\u102D\u102F\u1038\u1005\u102C\u1038\u1015\u102B\u104B</span></div>';
+};
+if (goog.DEBUG) {
+  Puzzle.soy.messages.soyTemplateName = 'Puzzle.soy.messages';
+}
+
+
+Puzzle.soy.start = function(opt_data, opt_ignored, opt_ijData) {
+  return '' + Puzzle.soy.messages(null, null, opt_ijData) + BlocklyGames.soy.headerBar({appName: '\u1015\u101F\u1031\u1020\u102D', levelLinkSuffix: '', hasLinkButton: false, hasHelpButton: true, farLeftHtml: '<button id="checkButton" class="primary">\u1021\u1016\u103C\u1031\u1019\u103B\u102C\u1038\u1000\u102D\u102F \u1005\u1005\u103A\u1006\u1031\u1038\u1015\u102B\u104B</button>'}, null, opt_ijData) + '<div id="blockly"></div>' + BlocklyGames.soy.dialog(null, null, opt_ijData) + '<div id="help" class="dialogHiddenContent"><div style="padding-bottom: 0.7ex">\u1010\u102D\u101B\u102D\u1005\u1039\u1006\u102C\u1014\u103A\u1010\u1005\u103A\u1000\u1031\u102C\u1004\u103A\u1001\u103B\u1004\u103A\u1038\u1005\u102E\u1021\u1010\u103D\u1000\u103A (\u1021\u1005\u102D\u1019\u103A\u1038\u101B\u1031\u102C\u1004\u103A)\u104A \u104E\u1004\u103A\u1038\u104F\u1015\u102F\u1036\u1010\u103D\u1004\u103A\u1010\u103D\u1032\u1015\u102B\u104A \u104E\u1004\u103A\u1038\u104F\u1001\u103C\u1031\u1011\u1031\u102C\u1000\u103A\u1021\u101B\u100A\u103A\u1021\u1010\u103D\u1000\u103A\u1000\u102D\u102F\u101B\u103D\u1031\u1038\u1001\u103B\u101A\u103A\u1015\u102B\u104A \u1011\u102D\u102F\u1037\u1014\u1031\u102C\u1000\u103A \u104E\u1004\u103A\u1038\u1009\u102C\u1009\u103A \u1021\u1019\u103C\u1031\u102C\u1000\u103A\u1021\u1019\u103B\u102C\u1038\u1015\u103C\u102F\u101C\u102F\u1015\u103A\u1015\u102B\u104B</div><div id="sample" class="readonly"></div>' + BlocklyGames.soy.ok(null, null, opt_ijData) + '</div><div id="answers" class="dialogHiddenContent"><div id="answerMessage"></div><div id="graph"><div id="graphValue"></div></div>' + BlocklyGames.soy.ok(null, null, opt_ijData) + '</div>';
+};
+if (goog.DEBUG) {
+  Puzzle.soy.start.soyTemplateName = 'Puzzle.soy.start';
+}
